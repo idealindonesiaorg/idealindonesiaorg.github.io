@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>About Company | Prompt - Tailwind CSS Multipurpose Landing Page Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="A fully responsive Tailwind CSS Multipurpose agency, application, business, clean, creative, cryptocurrency, it solutions, startup, career, blog, modern, creative, multipurpose, portfolio, saas, software, tailwind css, etc." name="description" />
+    <meta content="coderthemes" name="author" />
+
+    <!-- Theme favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!--Swiper slider css-->
+    <link href="assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Animation on Scroll css -->
+    <link href="assets/libs/aos/aos.css" rel="stylesheet" type="text/css">
+
+    <!-- Style css -->
+    <link href="assets/css/style.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Head.js -->
+    <script src="assets/js/head.js"></script>
+</head>
+
+<body class="text-default-700">
+
+    <!-- Navbar Start -->
+    <header id="navbar"
+        class="light fixed top-0 inset-x-0 flex items-center z-40 w-full lg:bg-transparent bg-white transition-all py-5">
+        <div class="container">
+            <nav class="flex items-center">
+                <!-- Navbar Brand Logo -->
+                <a href="index.html">
+                    <img src="assets/images/logo-dark.png" class="h-8 logo-dark" alt="Logo Dark">
+                    <img src="assets/images/logo-light.png" class="h-8 logo-light" alt="Logo Light">
+                </a>
+
+                <!-- Nevigation Menu -->
+                <div class="hidden lg:block ms-auto">
+                    <ul class="navbar-nav flex gap-x-3 items-center justify-center">
+                        <!-- Home Page Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <!-- Home Page Dropdown -->
+                        <li class="nav-item">
+                            <div class="hs-dropdown [--trigger:hover] [--placement:bottom] relative">
+                                <a href="javascript:void(0);"
+                                    class="nav-link hs-dropdown-toggle after:absolute hover:after:-bottom-10 after:inset-0">
+                                    Landing
+                                    <i class="i-fa6-solid-angle-down ms-2 align-middle"></i>
+                                </a>
+
+                                <div id="landingDropdownMenu"
+                                    class="hs-dropdown-menu transition-[opacity,margin] duration hs-dropdown-open:opacity-100 hs-dropdown-open:translate-y-0 translate-y-3 origin-center opacity-0 hidden w-96 min-w-96 border p-2 bg-white shadow-lg rounded-lg mt-2 after:h-4 after:absolute after:-bottom-4 after:start-0 after:w-full before:h-4 before:absolute before:-top-4 before:start-0 before:w-full">
+                                    <div class="grid grid-cols-2 gap-1.5">
+                                        <div class="nav-item">
+                                            <a class="nav-link" href="home-app.html">
+                                                <div class="flex items-center -ms-1.5">
+                                                    <span
+                                                        class="bg-blue-600/10 flex justify-center items-center w-8 h-8 shadow rounded me-3">
+                                                        <i
+                                                            class="i-solar-smartphone-2-bold-duotone text-blue-600 size-6"></i>
+                                                    </span>
+                                                    <div class="flex-grow-1">
+                                                        App
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-link" href="home-saas.html">
+                                                <div class="flex items-center -ms-1.5">
+                                                    <span
+                                                        class="bg-green-500/20 flex justify-center items-center w-8 h-8 shadow rounded me-3">
+                                                        <span
+                                                            class="i-solar-laptop-minimalistic-bold-duotone text-green-500 size-6"></span>
+                                                    </span>
+                                                    <div class="flex-grow-1">Saas Modern</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-link" href="home-saas2.html">
+                                                <div class="flex items-center -ms-1.5">
+                                                    <span
+                                                        class="bg-primary/10 flex justify-center items-center w-8 h-8 shadow rounded me-3">
+                                                        <i class="i-solar-monitor-bold-duotone text-primary size-6"></i>
+                                                    </span>
+                                                    <div class="flex-grow-1">Saas Classic</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-link" href="home-startup.html">
+                                                <div class="flex items-center -ms-1.5">
+                                                    <span
+                                                        class="bg-orange-600/10 flex justify-center items-center w-8 h-8 shadow rounded me-3">
+                                                        <i class="i-solar-pulse-bold-duotone text-orange-600 size-6"></i>
+                                                    </span>
+                                                    <div class="flex-grow-1">Startup</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-link" href="home-software.html">
+                                                <div class="flex items-center -ms-1.5">
+                                                    <span
+                                                        class="bg-amber-400/10 flex justify-center items-center w-8 h-8 shadow rounded me-3">
+                                                        <i class="i-solar-layers-bold-duotone text-amber-400 size-6"></i>
+                                                    </span>
+                                                    <div class="flex-grow-1">Software</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-link" href="home-agency.html">
+                                                <div class="flex items-center -ms-1.5">
+                                                    <span
+                                                        class="bg-black/10 flex justify-center items-center w-8 h-8 shadow rounded me-3">
+                                                        <i class="i-solar-bolt-circle-bold-duotone text-black size-6"></i>
+                                                    </span>
+                                                    <div class="flex-grow-1">Agency</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-link" href="home-coworking.html">
+                                                <div class="flex items-center -ms-1.5">
+                                                    <span
+                                                        class="bg-primary/10 flex justify-center items-center w-8 h-8 shadow rounded me-3">
+                                                        <i class="i-solar-home-wifi-bold-duotone text-primary size-6"></i>
+                                                    </span>
+                                                    <div class="flex-grow-1">Coworking</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-link" href="home-crypto.html">
+                                                <div class="flex items-center -ms-1.5">
+                                                    <span
+                                                        class="bg-orange-600/10 flex justify-center items-center w-8 h-8 shadow rounded me-3">
+                                                        <i
+                                                            class="i-solar-dollar-minimalistic-bold-duotone text-orange-600 size-6"></i>
+
+                                                    </span>
+                                                    <div class="flex-grow-1">Crypto</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-link" href="home-marketing.html">
+                                                <div class="flex items-center -ms-1.5">
+                                                    <span
+                                                        class="bg-blue-500/10 flex justify-center items-center w-8 h-8 shadow rounded me-3">
+                                                        <i
+                                                            class="i-solar-letter-opened-bold-duotone text-blue-500 size-6"></i>
+                                                    </span>
+                                                    <div class="flex-grow-1">Marketing</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="nav-item">
+                                            <a class="nav-link" href="home-portfolio.html">
+                                                <div class="flex items-center -ms-1.5">
+                                                    <span
+                                                        class="bg-red-500/10 flex justify-center items-center w-8 h-8 shadow rounded me-3">
+                                                        <i class="i-solar-wallpaper-bold-duotone text-red-500 size-6"></i>
+                                                    </span>
+                                                    <div class="flex-grow-1">Portfolio</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Inner Page Dropdown -->
+                        <li class="nav-item">
+                            <div class="hs-dropdown [--trigger:hover] relative">
+                                <a href="javascript:void(0);"
+                                    class="nav-link hs-dropdown-toggle after:absolute hover:after:-bottom-10 after:inset-0">
+                                    Pages
+                                    <i class="i-fa6-solid-angle-down ms-2 align-middle"></i>
+                                </a>
+
+                                <div class="hs-dropdown-menu transition-[opacity,margin] duration hs-dropdown-open:opacity-100 hs-dropdown-open:translate-y-0 translate-y-3 origin-center opacity-0 hidden w-48 min-w-48 border p-2 bg-white shadow-lg rounded-lg mt-2 after:h-4 after:absolute after:-bottom-4 after:start-0 after:w-full before:h-4 before:absolute before:-top-4 before:start-0 before:w-full"
+                                    role="menu" aria-orientation="vertical" aria-labelledby="hs-dropdown-default">
+                                    <div class="space-y-0.5">
+                                        <!-- Dropdown item -->
+                                        <div class="nav-item">
+                                            <div class="hs-dropdown [--trigger:hover] [--placement:right-start] relative">
+                                                <a href="javascript:void(0);" type="button"
+                                                    class="nav-link hs-dropdown-toggle after:absolute after:inset-0 after:-end-10">
+                                                    Account
+                                                    <i class="i-fa6-solid-angle-right ms-auto align-middle"></i>
+                                                </a>
+
+                                                <div class="hs-dropdown-menu !ms-2 w-48 min-w-48 z-50 transition-[opacity,margin] mt-2 translate-y-3 duration hs-dropdown-open:translate-y-0 hs-dropdown-open:opacity-100 opacity-0 hidden  bg-white shadow-lg border p-2 space-y-1.5 rounded-lg mt-2"
+                                                    role="menu" aria-orientation="vertical"
+                                                    aria-labelledby="hs-split-dropleft">
+                                                    <div class="nav-item">
+                                                        <a class="nav-link" href="account-dashboard.html">Dashboard</a>
+                                                    </div>
+
+                                                    <div class="nav-item">
+                                                        <a class="nav-link" href="account-settings.html">Settings</a>
+                                                    </div>
+
+                                                    <div class="nav-item">
+                                                        <a class="nav-link" href="account-login.html">Login</a>
+                                                    </div>
+
+                                                    <div class="nav-item">
+                                                        <a class="nav-link" href="account-signup.html">Sign Up</a>
+                                                    </div>
+
+                                                    <div class="nav-item">
+                                                        <a class="nav-link" href="account-forget-password.html">Forget
+                                                            Password</a>
+                                                    </div>
+
+                                                    <div class="nav-item">
+                                                        <a class="nav-link" href="account-confirm.html">Confirm Account</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Dropdown item -->
+                                        <div class="nav-item">
+                                            <div class="hs-dropdown [--trigger:hover] [--placement:right-start] relative">
+                                                <a href="javascript:void(0);" type="button"
+                                                    class="nav-link hs-dropdown-toggle after:absolute after:inset-0 after:-end-10">
+                                                    Blog
+                                                    <i class="i-fa6-solid-angle-right ms-auto align-middle"></i>
+                                                </a>
+
+                                                <div class="hs-dropdown-menu !ms-2 w-48 min-w-48 z-50 transition-[opacity,margin] mt-2 translate-y-3 duration hs-dropdown-open:translate-y-0 hs-dropdown-open:opacity-100 opacity-0 hidden  bg-white shadow-lg border p-2 space-y-1.5 rounded-lg mt-2"
+                                                    role="menu" aria-orientation="vertical"
+                                                    aria-labelledby="hs-split-dropleft">
+                                                    <div class="nav-item">
+                                                        <a class="nav-link" href="blog.html">Blog</a>
+                                                    </div>
+
+                                                    <div class="nav-item">
+                                                        <a class="nav-link" href="blog-post.html">Blog Post</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <hr class="-mx-2 my-2">
+
+                                        <!-- Dropdown item -->
+                                        <div class="nav-item">
+                                            <a class="nav-link" href="company.html">Company</a>
+                                        </div>
+
+                                        <!-- Dropdown item -->
+                                        <div class="nav-item">
+                                            <a class="nav-link" href="career.html">Career</a>
+                                        </div>
+
+                                        <!-- Dropdown item -->
+                                        <div class="nav-item">
+                                            <a class="nav-link" href="pricing.html">Pricing</a>
+                                        </div>
+
+                                        <!-- Dropdown item -->
+                                        <div class="nav-item">
+
+                                            <div class="hs-dropdown [--trigger:hover] [--placement:right-start] relative">
+                                                <a href="javascript:void(0);" type="button"
+                                                    class="nav-link hs-dropdown-toggle after:absolute after:inset-0 after:-end-10">
+                                                    Portfolio
+                                                    <i class="i-fa6-solid-angle-right ms-auto align-middle"></i>
+                                                </a>
+
+                                                <div class="hs-dropdown-menu !ms-2 w-48 min-w-48 z-50 transition-[opacity,margin] mt-2 translate-y-3 duration hs-dropdown-open:translate-y-0 hs-dropdown-open:opacity-100 opacity-0 hidden  bg-white shadow-lg border p-2 space-y-1.5 rounded-lg mt-2"
+                                                    role="menu" aria-orientation="vertical"
+                                                    aria-labelledby="hs-split-dropleft">
+                                                    <div class="nav-item">
+                                                        <a class="nav-link" href="portfolio-grid.html">Portfolio Grid</a>
+                                                    </div>
+
+                                                    <div class="nav-item">
+                                                        <a class="nav-link" href="portfolio-masonry.html">Portfolio
+                                                            Masonry</a>
+                                                    </div>
+
+                                                    <div class="nav-item">
+                                                        <a class="nav-link" href="portfolio-item.html">Portfolio Item</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <hr class="-mx-2 my-2">
+
+                                        <!-- Dropdown item -->
+                                        <div class="nav-item">
+                                            <a class="nav-link" href="help.html">Help</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Contact Page Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Download Button -->
+                <div class="hidden lg:flex items-center ms-3">
+                    <a href="https://1.envato.market/prompt-tailwind" target="_blank"
+                        class="bg-primary text-white px-4 py-2 rounded inline-flex items-center text-sm">Download</a>
+                </div>
+
+                <!-- Moblie Menu Toggle Button (Offcanvas Button) -->
+                <div class="lg:hidden flex items-center ms-auto px-2.5">
+                    <button type="button" class="py-3 px-4 inline-flex items-center" aria-haspopup="dialog"
+                        aria-expanded="false" aria-controls="mobileMenu" data-hs-overlay="#mobileMenu">
+                        <i class="i-fa6-solid-bars text-2xl text-default-500"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Navbar End -->
+
+
+    <!-- Mobile Menu Start (Offcanvas) -->
+    <div id="mobileMenu"
+        class="hs-overlay hs-overlay-open:translate-x-0 hidden -translate-x-full fixed top-0 start-0 transition-all duration-300 transform h-full max-w-xs w-full z-[80] bg-white border-e"
+        role="dialog" tabindex="-1" aria-labelledby="mobileMenu-label">
+        <div>
+            <div class="flex flex-col h-full divide-y-2 divide-default-200">
+                <!-- Mobile Menu Topbar Logo (Header) -->
+                <div class="p-6 flex items-center justify-between">
+                    <a href="index.html">
+                        <img src="assets/images/logo-dark.png" class="h-8" alt="Logo">
+                    </a>
+
+                    <button type="button"
+                        class="size-8 inline-flex justify-center items-center gap-x-2 rounded-full border border-transparent bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-none focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none"
+                        aria-label="Close" data-hs-overlay="#mobileMenu">
+                        <span class="sr-only">Close</span>
+                        <i class="i-fa6-solid-xmark text-xl"></i>
+                    </button>
+                </div>
+
+                <!-- Mobile Menu Link List -->
+                <div class="p-6 overflow-scroll h-full">
+                    <ul class="navbar-nav flex flex-col gap-2 hs-accordion-group">
+                        <!-- Home Page Link -->
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+
+                        <!-- Landing Page -->
+                        <li class="nav-item hs-accordion">
+                            <a href="javascript:void(0)" class="nav-link hs-accordion-toggle">
+                                Landing
+                                <i
+                                    class="i-fa6-solid-angle-down ms-auto align-middle transition-all hs-accordion-active:rotate-180"></i>
+                            </a>
+
+                            <ul
+                                class="hs-accordion-content ps-4 hidden overflow-hidden transition-[height] duration-300 space-y-2">
+                                <li class="nav-item mt-2">
+                                    <a class="nav-link" href="home-app.html">App</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="home-saas.html">Saas Modern</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="home-saas2.html">Saas Classic</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="home-startup.html">Startup</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="home-software.html">Software</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="home-agency.html">Agency</a>
+                                </li>
+
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="home-coworking.html">Coworking</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="home-crypto.html">Crypto</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="home-marketing.html">Marketing</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="home-portfolio.html">Portfolio</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Inner Page -->
+                        <li class="nav-item hs-accordion">
+                            <a href="javascript:void(0)" class="nav-link hs-accordion-toggle">
+                                Pages <i
+                                    class="i-fa6-solid-angle-down ms-auto align-middle transition-all hs-accordion-active:rotate-180"></i>
+                            </a>
+
+                            <ul
+                                class="hs-accordion-content ps-4 hidden overflow-hidden transition-[height] duration-300 space-y-2">
+                                <li class="nav-item mt-2">
+                                    <a class="nav-link" href="company.html">Company</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="career.html">Career</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pricing.html">Pricing</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="help.html">Help</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Blog Page -->
+                        <li class="nav-item hs-accordion">
+                            <a href="javascript:void(0)" class="nav-link hs-accordion-toggle">
+                                Blog Page <i
+                                    class="i-fa6-solid-angle-down ms-auto align-middle transition-all hs-accordion-active:rotate-180"></i>
+                            </a>
+
+                            <ul
+                                class="hs-accordion-content ps-4 hidden overflow-hidden transition-[height] duration-300 space-y-2">
+                                <li class="nav-item mt-2">
+                                    <a class="nav-link" href="blog.html">Blog</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog-post.html">Blog Post</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Portfolio Page -->
+                        <li class="nav-item hs-accordion">
+                            <a href="javascript:void(0)" class="nav-link hs-accordion-toggle">
+                                Portfolio <i
+                                    class="i-fa6-solid-angle-down ms-auto align-middle transition-all hs-accordion-active:rotate-180"></i>
+                            </a>
+
+                            <ul
+                                class="hs-accordion-content ps-4 hidden overflow-hidden transition-[height] duration-300 space-y-2">
+                                <li class="nav-item mt-2">
+                                    <a class="nav-link" href="portfolio-grid.html">Portfolio Grid</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="portfolio-masonry.html">Portfolio Masonry</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="portfolio-item.html">Portfolio Item</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="account-confirm.html">Confirm Account</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Auth Page -->
+                        <li class="nav-item hs-accordion">
+                            <a href="javascript:void(0)" class="nav-link hs-accordion-toggle">
+                                Account <i
+                                    class="i-fa6-solid-angle-down ms-auto align-middle transition-all hs-accordion-active:rotate-180"></i>
+                            </a>
+
+                            <ul
+                                class="hs-accordion-content ps-4 hidden overflow-hidden transition-[height] duration-300 space-y-2">
+                                <li class="nav-item mt-2">
+                                    <a class="nav-link" href="account-login.html">Login</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="account-signup.html">Sign Up</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="account-forget-password.html">Forget Password</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="account-confirm.html">Confirm Account</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Contact Page Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Mobile Menu Download Button (Footer) -->
+                <div class="p-6 flex items-center justify-center">
+                    <a href="https://1.envato.market/prompt-tailwind" target="_blank"
+                        class="bg-primary w-full text-white p-3 rounded flex items-center justify-center text-sm">Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Mobile Menu End -->
+
+    <!-- Hero Section Start -->
+    <section class="pt-36 pb-24 relative">
+        <div class="container">
+
+            <div class="text-center">
+                <h1 class="text-3xl/tight sm:text-4xl/tight lg:text-5xl/tight font-semibold mb-5">
+                    We are on a mission to
+                    <span
+                        class="relative z-0 after:bg-primary/30 after:-z-10 after:absolute md:after:h-6 sm:after:h-5 after:h-4 after:w-full after:bottom-0 after:end-0">revolutionize</span>
+                    the web
+                </h1>
+                <p class="sm:text-lg text-default-500">We are a full-stack web development studio, run by people who are
+                    very passionate about making the web more beautiful</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <span class="flex justify-center items-center relative z-20 translate-y-1/2">
+            <div
+                class="bg-primary text-white rounded-md text-sm font-semibold flex-none shadow shadow-primary/20 cursor-pointer hover:shadow-lg hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/30 uppercase px-16 py-3">
+                Let's Have Talk</div>
+        </span>
+
+        <div class="flex items-center md:py-80 py-44 jarallax" data-jarallax data-speed="0.5"
+            style="background: url('assets/images/hero/coworking1.jpg') center no-repeat;"></div>
+    </section>
+    <!-- Hero Section End -->
+
+    <section class="lg:py-24 py-16">
+        <div class="container" data-aos="fade-up">
+
+            <div class="grid lg:grid-cols-3 grid-cols-1 gap-10">
+                <div class="flex flex-col items-center lg:items-start">
+                    <div class="border-t-2 border-default-300 w-1/5 mb-7"></div>
+                    <h1 class="text-3xl">About Us</h1>
+                </div>
+
+                <div>
+                    <p class="text-sm/relaxed tracking-wider text-default-600">
+                        Temporibus autem quibusdam et aut as officiis debitis aut rerum necessitatibus saepe eveniet
+                        voluptates repudiandae sint et molestiae non recusandae itaque earum rerum hic tenetur a
+                        sapiente delectus reiciendis.
+                    </p>
+                </div>
+
+                <div>
+                    <p class="text-sm/relaxed tracking-wider text-default-600">
+                        Temporibus autem quibusdam et aut as officiis debitis aut rerum necessitatibus saepe eveniet ut
+                        et voluptates repudiandae sint et molestiae non recusandae itaque earum rerum hic tenetur a
+                        sapiente delectus reiciendis.
+                    </p>
+                </div>
+            </div>
+
+            <div class="lg:mt-5">
+                <div class="grid lg:grid-cols-3 grid-cols-1 gap-10">
+                    <div></div>
+
+                    <div class="lg:col-span-2">
+                        <p class="text-sm/relaxed tracking-wider text-default-600">
+                            Temporibus autem quibusdam et aut as officiis debitis aut rerum necessitatibus saepe eveniet
+                            voluptates repudiandae sint et molestiae non recusandae itaque earum rerum hic tenetur a
+                            sapiente delectus reiciendis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Features Section Start -->
+    <section class="lg:py-24 py-16">
+        <div class="container" data-aos="fade-up">
+            <div class="grid lg:grid-cols-2 gap-14">
+
+                <div class="order-2 lg:order-1">
+                    <h1 class="text-3xl mb-7">Build amazing things together</h1>
+                    <p class="text-sm/relaxed tracking-wider text-default-600 mb-5">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                        totam rem aperiam beatae vitae dicta sunt explicabo.
+                    </p>
+                    <p class="text-sm/relaxed tracking-wider text-default-600 mb-7">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                        totam rem aperiam beatae vitae dicta sunt explicabo.
+                    </p>
+
+                    <div class="flex items-center">
+                        <a href="#" class="text-primary flex items-center">Learn more <i
+                                class="i-fa6-solid-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+
+                <div class="order-1 lg:order-2">
+                    <img src="assets/images/photos/14.jpg" alt="photo-3">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Features Section end -->
+
+    <!-- Counter Section Start -->
+    <section class="bg-gradient-to-r from-default-200/50 to-default-100/50 relative lg:py-24 py-16">
+
+        <div class="absolute top-0 inset-x-0 hidden sm:block">
+            <img src="assets/images/shapes/white-wave.svg" alt="white-wave-svg" class="w-full -scale-x-100">
+        </div>
+
+        <div class="py-10">
+            <div class="container" data-aos="fade-up">
+
+                <div class="text-center">
+                    <span class="text-sm bg-primary/10 text-primary rounded-full px-3 py-1">Stats</span>
+                    <h1 class="text-3xl/tight font-medium mt-3">Prompt In Numbers</h1>
+                </div>
+
+                <div class="mt-14">
+                    <div class="grid xl:grid-cols-4 sm:grid-cols-2 text-center gap-10 lg:gap-6">
+
+                        <div>
+                            <span class="text-3xl">100+</span>
+                            <h1 class="mt-3 mb-1">Products Built </h1>
+                            <p class="text-default-500">helped clients across the globe</p>
+                        </div>
+                        <div>
+                            <span class="text-3xl">$21M+</span>
+                            <h1 class="mt-3 mb-1">Revenue Generated</h1>
+                            <p class="text-default-500">across 10+ countries</p>
+                        </div>
+                        <div>
+                            <span class="text-3xl">100+</span>
+                            <h1 class="mt-3 mb-1">Satisfied Clients</h1>
+                            <p class="text-default-500">across 100+ locations</p>
+                        </div>
+                        <div>
+                            <span class="text-3xl">10+</span>
+                            <h1 class="mt-3 mb-1">Awards Won </h1>
+                            <p class="text-default-500">on Awwwards, CSS Design Awards</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Counter Section end -->
+
+    <!-- Our team Section Start -->
+    <section class="lg:py-24 py-16">
+        <div class="container">
+
+            <div class="text-center">
+                <span class="text-sm bg-primary/10 text-primary/40 rounded-full px-3 py-1">Our Team</span>
+                <h1 class="text-3xl/tight font-medium mt-3 mb-4">Meet Our Team</h1>
+                <p class="text-default-500">Start working with<span class="text-primary"> Prompt </span>to manage your
+                    workforce better.</p>
+            </div>
+
+            <div class="mt-14">
+                <div class="grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-12" data-aos="fade-up">
+
+                    <div>
+                        <div class="flex gap-4 items-center">
+                            <img src="assets/images/avatars/img-1.jpg" alt="avatar" class="h-16 w-16 rounded-md">
+                            <div>
+                                <h6 class="font-medium">Ana Russo</h6>
+                                <p class="text-default-500">CEO</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex gap-4 items-center">
+                            <img src="assets/images/avatars/img-2.jpg" alt="avatar" class="h-16 w-16 rounded-md">
+                            <div>
+                                <h6 class="font-medium">Danette Payne</h6>
+                                <p class="text-default-500">CTO</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex gap-4 items-center">
+                            <img src="assets/images/avatars/img-3.jpg" alt="avatar" class="h-16 w-16 rounded-md">
+                            <div>
+                                <h6 class="font-medium">Tammy Ward</h6>
+                                <p class="text-default-500">VP, Product Development</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex gap-4 items-center">
+                            <img src="assets/images/avatars/img-4.jpg" alt="avatar" class="h-16 w-16 rounded-md">
+                            <div>
+                                <h6 class="font-medium">Paul Moore</h6>
+                                <p class="text-default-500">Back-End Developer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex gap-4 items-center">
+                            <img src="assets/images/avatars/img-5.jpg" alt="avatar" class="h-16 w-16 rounded-md">
+                            <div>
+                                <h6 class="font-medium">Harry Burris</h6>
+                                <p class="text-default-500">PHP Developer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex gap-4 items-center">
+                            <img src="assets/images/avatars/img-6.jpg" alt="avatar" class="h-16 w-16 rounded-md">
+                            <div>
+                                <h6 class="font-medium">Patricia Ferraro</h6>
+                                <p class="text-default-500">Web Designer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex gap-4 items-center">
+                            <img src="assets/images/avatars/img-7.jpg" alt="avatar" class="h-16 w-16 rounded-md">
+                            <div>
+                                <h6 class="font-medium">Robert Smith</h6>
+                                <p class="text-default-500">Graphic Designer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex gap-4 items-center">
+                            <img src="assets/images/avatars/img-8.jpg" alt="avatar" class="h-16 w-16 rounded-md">
+                            <div>
+                                <h6 class="font-medium">Lindsay Clark</h6>
+                                <p class="text-default-500">Web Designer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex gap-4 items-center">
+                            <img src="assets/images/avatars/img-1.jpg" alt="avatar" class="h-16 w-16 rounded-md">
+                            <div>
+                                <h6 class="font-medium">Lindsay Clark</h6>
+                                <p class="text-default-500">Front-End Developer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex gap-4 items-center">
+                            <img src="assets/images/avatars/img-2.jpg" alt="avatar" class="h-16 w-16 rounded-md">
+                            <div>
+                                <h6 class="font-medium">Ernest Griffith</h6>
+                                <p class="text-default-500">PHP Developer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex gap-4 items-center">
+                            <img src="assets/images/avatars/img-3.jpg" alt="avatar" class="h-16 w-16 rounded-md">
+                            <div>
+                                <h6 class="font-medium">Cecelia Poole</h6>
+                                <p class="text-default-500">Back-End Developer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex gap-4 items-center">
+                            <img src="assets/images/avatars/img-4.jpg" alt="avatar" class="h-16 w-16 rounded-md">
+                            <div>
+                                <h6 class="font-medium">Morris Hall</h6>
+                                <p class="text-default-500">Graphic Designer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Our team Section end -->
+
+    <!-- Clients logo Section Start -->
+    <section class="lg:pb-20 py-16">
+        <div class="container">
+
+            <div class="text-center">
+                <span class="text-sm bg-primary/10 text-primary rounded-full px-3 py-1">Investor</span>
+                <h1 class="text-3xl/tight font-medium mt-3 mb-4">We are backed by</h1>
+                <p class="text-default-500">100+ clients trust<span class="text-primary"> Prompt </span>to drive
+                    perfomance & engagement.</p>
+            </div>
+
+            <div class="mt-14">
+                <div class="grid md:grid-cols-4 grid-cols-2 gap-5 items-center" data-aos="fade-up">
+                    <div>
+                        <img src="assets/images/brands/amazon.svg" alt="brand-logo" class="w-32 mx-auto">
+                    </div>
+                    <div>
+                        <img src="assets/images/brands/google.svg" alt="brand-logo" class="w-32 mx-auto">
+                    </div>
+                    <div>
+                        <img src="assets/images/brands/paypal.svg" alt="brand-logo" class="w-32 mx-auto">
+                    </div>
+                    <div>
+                        <img src="assets/images/brands/shopify.svg" alt="brand-logo" class="w-32 mx-auto">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Clients logo Section end -->
+
+    <!-- footer Section start -->
+    <footer class="bg-default-100">
+        <div class="container">
+            <div class="grid xl:grid-cols-5 gap-6 py-12">
+                <div class="xl:col-span-2">
+                    <a href="index.html">
+                        <img src="assets/images/logo-dark.png" class="h-8">
+                    </a>
+                    <p class="text-default-500/80 mt-5 lg:w-4/5">Make your web application stand out with high-quality
+                        landing page</p>
+                </div>
+                <div class="xl:col-span-3 col-span-4">
+                    <div class="flex flex-col sm:flex-row gap-6 flex-wrap justify-between">
+                        <div>
+                            <div class="flex flex-col gap-3">
+                                <h5 class="mb-3 uppercase">Platform</h5>
+                                <div class="text-default-500/80"><a href="javascript:void(0);">Demo</a></div>
+                                <div class="text-default-500/80"><a href="javascript:void(0);">Pricing</a></div>
+                                <div class="text-default-500/80"><a href="javascript:void(0);">Integrations</a></div>
+                                <div class="text-default-500/80"><a href="javascript:void(0);">Status</a></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex flex-col gap-3">
+                                <h5 class="mb-3 uppercase">Knowledge Base</h5>
+                                <div class="text-default-500/80"><a href="javascript:void(0);">Blog</a></div>
+                                <div class="text-default-500/80"><a href="javascript:void(0);">Help Center</a></div>
+                                <div class="text-default-500/80"><a href="javascript:void(0);">Sales Tools catalog</a>
+                                </div>
+                                <div class="text-default-500/80"><a href="javascript:void(0);">API</a></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex flex-col gap-3">
+                                <h5 class="mb-3 uppercase">Company</h5>
+                                <div class="text-default-500/80"><a href="javascript:void(0);">About us</a></div>
+                                <div class="text-default-500/80"><a href="javascript:void(0);">Career</a></div>
+                                <div class="text-default-500/80"><a href="javascript:void(0);">Contact Us</a></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex flex-col gap-3">
+                                <h5 class="mb-3 uppercase">Legal</h5>
+                                <div class="text-default-500/80"><a href="javascript:void(0);">Usage Policy</a></div>
+                                <div class="text-default-500/80"><a href="javascript:void(0);">Privacy Policy</a></div>
+                                <div class="text-default-500/80"><a href="javascript:void(0);">Terms of Service</a>
+                                </div>
+                                <div class="text-default-500/80"><a href="javascript:void(0);">Trust</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t py-6">
+                <div class="grid sm:grid-cols-2 text-center sm:text-start gap-6">
+                    <div>
+                        <p class="text-default-500/80 text-sm">
+                            <script>document.write(new Date().getFullYear())</script>© Prompt. All rights reserved.
+                            Crafted
+                            by <a href="#" class="text-default-800 hover:text-primary transition-all">Coderthemes</a>
+                        </p>
+                    </div>
+                    <div class="flex justify-center sm:justify-end gap-7">
+                        <span>
+                            <a href="#">
+                                <i class="i-tabler-brand-facebook size-5 hover:text-primary transition-all"></i>
+                            </a>
+                        </span>
+                        <span>
+                            <a href="#">
+                                <i class="i-tabler-brand-x size-5 hover:text-primary transition-all"></i>
+                            </a>
+                        </span>
+                        <span>
+                            <a href="#">
+                                <i class="i-tabler-brand-instagram size-5 hover:text-primary transition-all"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer Section end -->
+
+    <!-- Back To Top Start -->
+    <button data-toggle="back-to-top"
+        class="fixed text-sm rounded-full z-10 bottom-5 end-5 h-9 w-9 text-center bg-primary/20 text-primary flex justify-center items-center">
+        <i class="i-fa6-solid-arrow-up text-base"></i>
+    </button>
+    <!-- Back To Top End -->
+
+    <!-- Jarallax Plugin Js -->
+    <script src="assets/libs/jarallax/jarallax.min.js"></script>
+
+    <!-- Preline Js -->
+    <script src="assets/libs/preline/index.js"></script>
+
+    <!-- Swiper Plugin Js -->
+    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Animation on Scroll Plugin Js -->
+    <script src="assets/libs/aos/aos.js"></script>
+
+    <!-- Theme Js -->
+    <script src="assets/js/theme.min.js"></script>
+
+</body>
+
+</html>

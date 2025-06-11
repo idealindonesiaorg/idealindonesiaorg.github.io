@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ideal Indonesia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      content="A fully responsive Tailwind CSS Multipurpose agency, application, business, clean, creative, cryptocurrency, it solutions, startup, career, blog, modern, creative, multipurpose, portfolio, saas, software, tailwind css, etc."
+      name="description"
+    />
+    <meta content="coderthemes" name="author" />
+
+    <!-- Theme favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+    <!--Swiper slider css-->
+    <link
+      href="assets/libs/swiper/swiper-bundle.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Animation on Scroll css -->
+    <link href="assets/libs/aos/aos.css" rel="stylesheet" type="text/css" />
+
+    <!-- Style css -->
+    <link href="assets/css/style.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Head.js -->
+    <script src="assets/js/head.js"></script>
+  </head>
+
+  <body class="text-default-800">
+    <!-- Navbar Start -->
+    <header
+      id="navbar"
+      class="light fixed top-0 inset-x-0 flex items-center z-40 w-full lg:bg-transparent bg-white transition-all py-5"
+    >
+      <div class="container">
+        <nav class="flex items-center">
+          <!-- Navbar Brand Logo -->
+          <a href="index.html">
+            <img
+              src="assets/images/logo-dark.png"
+              class="h-8 logo-dark"
+              alt="Logo Dark"
+            />
+            <img
+              src="assets/images/logo-light.png"
+              class="h-8 logo-light"
+              alt="Logo Light"
+            />
+          </a>
+
+          <!-- Nevigation Menu -->
+          <div class="hidden lg:block ms-auto">
+            <ul class="navbar-nav flex gap-x-3 items-center justify-center">
+              <!-- Home Page Link -->
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#program">Program</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Download Button -->
+          <div class="hidden lg:flex items-center ms-3">
+            <a
+              href="contact.html"
+              target="_blank"
+              class="bg-primary text-white px-4 py-2 rounded inline-flex items-center text-sm"
+              >Contact
+            </a>
+          </div>
+
+          <!-- Moblie Menu Toggle Button (Offcanvas Button) -->
+          <div class="lg:hidden flex items-center ms-auto px-2.5">
+            <button
+              type="button"
+              class="py-3 px-4 inline-flex items-center"
+              aria-haspopup="dialog"
+              aria-expanded="false"
+              aria-controls="mobileMenu"
+              data-hs-overlay="#mobileMenu"
+            >
+              <i class="i-fa6-solid-bars text-2xl text-default-500"></i>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Mobile Menu Start (Offcanvas) -->
+    <div
+      id="mobileMenu"
+      class="hs-overlay hs-overlay-open:translate-x-0 hidden -translate-x-full fixed top-0 start-0 transition-all duration-300 transform h-full max-w-xs w-full z-[80] bg-white border-e"
+      role="dialog"
+      tabindex="-1"
+      aria-labelledby="mobileMenu-label"
+    >
+      <div>
+        <div class="flex flex-col h-full divide-y-2 divide-default-200">
+          <!-- Mobile Menu Topbar Logo (Header) -->
+          <div class="p-6 flex items-center justify-between">
+            <a href="index.html">
+              <img src="assets/images/logo-dark.png" class="h-8" alt="Logo" />
+            </a>
+
+            <button
+              type="button"
+              class="size-8 inline-flex justify-center items-center gap-x-2 rounded-full border border-transparent bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-none focus:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none"
+              aria-label="Close"
+              data-hs-overlay="#mobileMenu"
+            >
+              <span class="sr-only">Close</span>
+              <i class="i-fa6-solid-xmark text-xl"></i>
+            </button>
+          </div>
+
+          <!-- Mobile Menu Link List -->
+          <div class="p-6 overflow-scroll h-full">
+            <ul class="navbar-nav flex flex-col gap-2 hs-accordion-group">
+              <!-- Home Page Link -->
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#program" class="nav-link">Program</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Mobile Menu Download Button (Footer) -->
+          <div class="p-6 flex items-center justify-center">
+            <a
+              href="contact.html"
+              target="_blank"
+              class="bg-primary text-white px-4 py-2 rounded inline-flex items-center text-sm"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Menu End -->
+
+    <!-- Hero Section Start -->
+    <section class="bg-gradient-to-t from-default-500/10 relative">
+      <section class="relative pt-44 pb-36">
+        <div class="container">
+          <div class="grid lg:grid-cols-2 grid-cols-1 gap-16 items-start">
+            <div class="order-2 lg:order-1">
+              <div class="text-start sm:text-start">
+                <h1
+                  class="text-3xl/tight sm:text-4xl/tight lg:text-5xl/tight font-semibold mb-7"
+                >
+                  Shaping Future Leaders Through Education & Innovation
+                </h1>
+                <p class="sm:text-lg text-default-500">
+                  Ideal Indonesia is a dynamic platform dedicated to advancing
+                  education and leadership in Indonesia.
+                </p>
+                <div class="flex flex-wrap items-start gap-5 mt-12">
+                  <a
+                    href="index.html#application"
+                    class="py-3 px-6 rounded border border-primary text-white bg-primary hover:shadow-lg hover:shadow-primary/50 focus:outline focus:outline-primary/50 transition-all duration-500"
+                    >Be the Future <i class="i-fa6-solid-arrow-down ms-2"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="order-1 lg:order-2">
+              <div class="relative">
+                <div class="hidden sm:block">
+                  <div
+                    class="before:w-24 before:h-24 before:absolute before:-bottom-8 before:-start-8 before:bg-[url('../images/pattern/dot2.svg')]"
+                  ></div>
+                  <div
+                    class="after:w-24 after:h-24 after:absolute after:-top-10 after:end-10 2xl:after:end-0 after:rotate-45 after:bg-[url('../images/pattern/dot5.svg')]"
+                  ></div>
+                </div>
+
+                <div
+                  id="swiper_one"
+                  class="swiper border-[6px] border-white bg-white 2xl:w-[140%]"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                >
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div
+                        class="absolute inset-0 flex items-center justify-center"
+                      ></div>
+                      <img
+                        src="assets/images/hero/photo2.jpg"
+                        alt="saas1"
+                        class="w-full h-full rounded-md"
+                      />
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div
+                        class="absolute inset-0 flex items-center justify-center"
+                      ></div>
+                      <img
+                        src="assets/images/hero/photo1.jpg"
+                        alt="saas2"
+                        class="w-full h-full rounded-md"
+                      />
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div
+                        class="absolute inset-0 flex items-center justify-center"
+                      ></div>
+                      <img
+                        src="assets/images/hero/photo3.jpg"
+                        alt="saas3"
+                        class="w-full h-full rounded-md"
+                      />
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div
+                        class="absolute inset-0 flex items-center justify-center"
+                      ></div>
+                      <img
+                        src="assets/images/hero/photo4.jpg"
+                        alt="saas3"
+                        class="w-full h-full rounded-md"
+                      />
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div
+                        class="absolute inset-0 flex items-center justify-center"
+                      ></div>
+                      <img
+                        src="assets/images/hero/photo5.jpg"
+                        alt="saas3"
+                        class="w-full h-full rounded-md"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-24" data-aos="fade-up">
+            <div
+              class="grid xl:grid-cols-4 sm:grid-cols-2 text-center gap-10 lg:gap-6"
+            >
+              <div>
+                <span class="text-3xl">75+</span>
+                <h1 class="mt-3 mb-1">Community Partners</h1>
+                <p class="text-default-500">Trusted partnerships</p>
+              </div>
+              <div>
+                <span class="text-3xl">5k+</span>
+                <h1 class="mt-3 mb-1">Community Members</h1>
+                <p class="text-default-500">Engaged network.</p>
+              </div>
+              <div>
+                <span class="text-3xl">50+</span>
+                <h1 class="mt-3 mb-1">Events</h1>
+                <p class="text-default-500">Inspiring gatherings.</p>
+              </div>
+              <div>
+                <span class="text-3xl">100+</span>
+                <h1 class="mt-3 mb-1">Collaborations</h1>
+                <p class="text-default-500">Impactful teamwork.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="absolute bottom-0 inset-x-0 hidden sm:block">
+        <img
+          src="assets/images/shapes/white-wave.svg"
+          alt="white-wave-svg"
+          class="w-full -scale-x-100 -scale-y-100"
+        />
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- feature Section Start -->
+    <section class="overflow-hidden" id="program">
+      <div class="xl:py-24 py-16">
+        <div class="container">
+          <div class="text-center">
+            <h1 class="text-3xl/tight font-medium mt-3 mb-4">Our Programs</h1>
+            <p class="text-default-500">
+              Training programs, mentorship, and community for leadership
+              development
+            </p>
+          </div>
+
+          <div
+            class="grid lg:grid-cols-3 gap-6 lg:py-16 py-14"
+            data-aos="fade-up"
+          >
+            <div>
+              <img
+                src="assets/images/blog/idealtalks.png"
+                class="rounded-md mb-5"
+              />
+
+              <span
+                class="bg-teal-500/10 text-teal-500 font-medium rounded-md text-xs py-1 px-2"
+                >Ideal talk</span
+              >
+              <h1 class="text-lg my-3 transition-all hover:text-primary">
+                Ideal Talk: A Space for Open and Inspiring Leadership
+                Conversations
+              </h1>
+              <p class="text-sm/relaxed tracking-wider text-default-500">
+                An inspiring discussion forum that brings together young leaders
+                to openly share experiences.
+              </p>
+            </div>
+
+            <div>
+              <img
+                src="assets/images/blog/leadbootcamp.png"
+                class="rounded-md mb-5"
+              />
+
+              <span
+                class="bg-teal-500/10 text-teal-500 font-medium rounded-md text-xs py-1 px-2"
+                >Leadership Bootcamps</span
+              >
+              <h1 class="text-lg my-3 transition-all hover:text-primary">
+                Leadership Bootcamps: Intensive Training for Future Changemakers
+              </h1>
+              <p class="text-sm/relaxed tracking-wider text-default-500">
+                An intensive program designed to build practical leadership
+                skills through hands-on training
+              </p>
+            </div>
+
+            <div>
+              <img
+                src="assets/images/blog/idealya.png"
+                class="rounded-md mb-5"
+              />
+
+              <span
+                class="bg-teal-500/10 text-teal-500 font-medium rounded-md text-xs py-1 px-2"
+                >Ideal Youth Ambassador</span
+              >
+              <h1 class="text-lg my-3 transition-all hover:text-primary">
+                Ideal Youth Ambassador: Empowering Role Models for a Better
+                Future
+              </h1>
+              <p class="text-sm/relaxed tracking-wider text-default-500">
+                A dynamic platform to inspire, empower, and equip young leaders
+                to become agents of change.
+              </p>
+            </div>
+
+            <div>
+              <img
+                src="assets/images/blog/leadershipsummit.png"
+                class="rounded-md mb-5"
+              />
+              <span
+                class="bg-orange-500/10 text-orange-500 font-medium rounded-md text-xs py-1 px-2"
+                >Leadership Youth Summit</span
+              >
+              <h1 class="text-lg my-3 transition-all hover:text-primary">
+                Leadership Youth Summit: Collaborating for National Solutions
+              </h1>
+              <p class="text-sm/relaxed tracking-wider text-default-500">
+                A conference uniting youth from Indonesia and abroad to
+                co-create solutions to national challenges through panels,
+                workshops, and networking sessions.
+              </p>
+            </div>
+
+            <div>
+              <img
+                src="assets/images/blog/mudaberdampak.png"
+                class="rounded-md mb-5"
+              />
+              <span
+                class="bg-orange-500/10 text-orange-500 font-medium rounded-md text-xs py-1 px-2"
+                >Muda Berdampak</span
+              >
+              <h1 class="text-lg my-3 transition-all hover:text-primary">
+                Muda Berdampak: Empowering Youth Through Real Social Action
+              </h1>
+              <p class="text-sm/relaxed tracking-wider text-default-500">
+                An action-driven program where young people design and lead
+                impactful, sustainable social projects in their communities.
+              </p>
+            </div>
+
+            <div>
+              <img
+                src="assets/images/blog/futureleaders.png"
+                class="rounded-md mb-5"
+              />
+              <span
+                class="bg-orange-500/10 text-orange-500 font-medium rounded-md text-xs py-1 px-2"
+                >Future Leaders Parliament</span
+              >
+              <h1 class="text-lg my-3 transition-all hover:text-primary">
+                Future Leaders Parliament: Shaping Youth Voices in Policy and
+                Change
+              </h1>
+              <p class="text-sm/relaxed tracking-wider text-default-500">
+                A simulation-based program where youth engage in parliamentary
+                processes to learn about leadership, legislation, and civic
+                responsibility.
+              </p>
+            </div>
+
+            <div>
+              <img
+                src="assets/images/blog/idealgoestoschool.png"
+                class="rounded-md mb-5"
+              />
+              <span
+                class="bg-green-500/10 text-green-500 font-medium rounded-md text-xs py-1 px-2"
+                >Ideal Goes to School/Campus</span
+              >
+              <h1 class="text-lg my-3 transition-all hover:text-primary">
+                Ideal Goes to School: Sparking Leadership at an Early Age
+              </h1>
+              <p class="text-sm/relaxed tracking-wider text-default-500">
+                A school-based leadership education initiative offering
+                seminars, workshops, and short trainings to inspire active youth
+                participation.
+              </p>
+            </div>
+
+            <div>
+              <img
+                src="assets/images/blog/internationaltalks.png"
+                class="rounded-md mb-5"
+              />
+              <span
+                class="bg-green-500/10 text-green-500 font-medium rounded-md text-xs py-1 px-2"
+                >International Talks</span
+              >
+              <h1 class="text-lg my-3 transition-all hover:text-primary">
+                International Youth Leaders Talks: Global Perspectives, Local
+                Impact
+              </h1>
+              <p class="text-sm/relaxed tracking-wider text-default-500">
+                An international forum connecting youth with global leaders to
+                exchange ideas, build networks, and explore leadership issues.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- feature Section end -->
+
+    <!-- clients Section Start -->
+    <section
+      class="bg-gradient-to-r from-default-100/70 to-default-100/50 relative xl:py-24 py-16"
+    >
+      <div class="absolute top-0 inset-x-0 hidden sm:block">
+        <img
+          src="assets/images/shapes/white-wave.svg"
+          alt="svg"
+          class="w-full -scale-x-100"
+        />
+      </div>
+
+      <div class="py-5">
+        <div class="container" data-aos="fade-up" data-aos-duration="300">
+          <div class="text-center">
+            <h1 class="text-3xl/tight font-medium mt-3 mb-4">
+              Collaborate with
+            </h1>
+            <p class="text-default-500">
+              Trusted by leading brands and forward-thinking companies.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-wrap items-center justify-center lg:gap-24 gap-10 mt-14"
+          >
+            <div>
+              <img src="assets/images/brands/disporabogor.png" class="h-12" />
+            </div>
+            <div>
+              <img src="assets/images/brands/kemenparekraf.png" class="h-12" />
+            </div>
+            <div>
+              <img src="assets/images/brands/kemenpora.png" class="h-12" />
+            </div>
+            <div>
+              <img src="assets/images/brands/usembassy.png" class="h-12" />
+            </div>
+            <div>
+              <img src="assets/images/brands/ide.png" class="h-12" />
+            </div>
+            <div>
+              <img src="assets/images/brands/superkey.webp" class="h-12" />
+            </div>
+            <div>
+              <img src="assets/images/brands/sandi.png" class="h-12" />
+            </div>
+            <div>
+              <img src="assets/images/brands/ppi.png" class="h-12" />
+            </div>
+            <div>
+              <img src="assets/images/brands/adiwastra.png" class="h-12" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- clients Section end -->
+
+    <!-- testimonial Section Start -->
+    <section class="py-16 sm:py-24 overflow-x-hidden">
+      <div class="container" data-aos="fade-up" data-aos-duration="600">
+        <div class="grid xl:grid-cols-4 grid-cols-3 gap-6">
+          <div class="col-span-3 lg:col-span-1">
+            <h1 class="text-3xl/tight font-medium mt-3 mb-4">
+              What people say
+            </h1>
+            <p class="text-default-500">Few valuables words from our team</p>
+
+            <div class="flex gap-4 mt-10">
+              <div
+                class="button-prev text-xl transition-all duration-300 hover:text-primary"
+              >
+                <i class="i-fa6-solid-arrow-left"></i>
+              </div>
+              <div
+                class="button-next text-xl transition-all duration-300 hover:text-primary"
+              >
+                <i class="i-fa6-solid-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-span-3 lg:col-span-2 xl:col-span-3">
+            <div class="relative">
+              <div class="hidden sm:block">
+                <div
+                  class="before:w-24 before:h-24 before:absolute before:-top-8 before:-end-8 before:bg-[url('../images/pattern/dot5.svg')]"
+                ></div>
+                <div
+                  class="after:w-24 after:h-24 after:absolute after:-bottom-8 after:-start-8 after:bg-[url('../images/pattern/dot2.svg')]"
+                ></div>
+              </div>
+
+              <div id="swiper_one" class="swiper relative">
+                <div class="swiper-wrapper z-10">
+                  <!-- 1 -->
+                  <div
+                    class="swiper-slide p-10 border rounded-xl bg-white shadow"
+                  >
+                    <i
+                      class="i-fa6-solid-quote-left text-default-500 text-5xl"
+                    ></i>
+                    <p class="my-4">
+                      Keep grindin' and learnin' anytime, anywhere.
+                    </p>
+                    <div class="border-b border-default-200 w-full my-7"></div>
+                    <div class="flex items-center gap-2">
+                      <img
+                        src="assets/images/avatars/azra.png"
+                        alt="avatar"
+                        class="h-10 w-10 rounded-full"
+                      />
+                      <div>
+                        <h1 class="text-sm mb-1">Azra Hudaya</h1>
+                        <p class="text-default-500 text-xs">Programmer</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 2 -->
+                  <div
+                    class="swiper-slide p-10 border rounded-xl bg-white shadow"
+                  >
+                    <i
+                      class="i-fa6-solid-quote-left text-default-500 text-5xl"
+                    ></i>
+                    <p class="my-4">
+                      Kami percaya bahwa masa depan Indonesia dibentuk oleh
+                      pemimpin yang berintegritas dan generasi yang terdidik.
+                      Ideal Indonesia hadir sebagai ruang kolaboratif untuk
+                      menumbuhkan kepemimpinan yang visioner dan pendidikan
+                      yang transformatif.
+                    </p>
+                    <div class="border-b border-default-200 w-full my-7"></div>
+                    <div class="flex items-center gap-2">
+                      <img
+                        src="assets/images/avatars/fatia.png"
+                        alt="avatar"
+                        class="h-10 w-10 rounded-full"
+                      />
+                      <div>
+                        <h1 class="text-sm mb-1">Fatia Rizka, Lc.</h1>
+                        <p class="text-default-500 text-xs">Co-Founder/COO</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial Section end -->
+
+    <!-- Our team Section Start -->
+    <section class="lg:py-24 py-16">
+      <div class="container">
+        <div class="text-center">
+          <h1 class="text-3xl/tight font-medium mt-3 mb-4">Meet Our Team</h1>
+          <p class="text-default-500">
+            Start working with Prompt to manage your workforce better.
+          </p>
+        </div>
+
+        <div class="mt-14">
+          <div
+            class="grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-12"
+            data-aos="fade-up"
+          >
+            <div>
+              <div class="flex gap-4 items-center">
+                <img
+                  src="assets/images/avatars/gugun.png"
+                  alt="avatar"
+                  class="h-16 w-16 rounded-md"
+                />
+                <div>
+                  <h6 class="font-medium">
+                    Dr. Gugun Gumilar, S.Pd., MA., PhD
+                  </h6>
+                  <p class="text-default-500">Ketua Penasehat</p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex gap-4 items-center">
+                <img
+                  src="assets/images/avatars/anggi.jpeg"
+                  alt="avatar"
+                  class="h-16 w-16 rounded-md"
+                />
+                <div>
+                  <h6 class="font-medium">
+                    Anggi Auliyani Suharja, S.Pd., M.Pd
+                  </h6>
+                  <p class="text-default-500">Ketua Pembina</p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex gap-4 items-center">
+                <img
+                  src="assets/images/avatars/fahrizal.png"
+                  alt="avatar"
+                  class="h-16 w-16 rounded-md"
+                />
+                <div>
+                  <h6 class="font-medium">Fahrizal Muhamad Ramadan, S.Pd</h6>
+                  <p class="text-default-500">Founder/CEO</p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex gap-4 items-center">
+                <img
+                  src="assets/images/avatars/fatia.png"
+                  alt="avatar"
+                  class="h-16 w-16 rounded-md"
+                />
+                <div>
+                  <h6 class="font-medium">Fatia Rizka, Lc.</h6>
+                  <p class="text-default-500">Co-Founder/COO</p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex gap-4 items-center">
+                <img
+                  src="assets/images/avatars/ihsan.jpg"
+                  alt="avatar"
+                  class="h-16 w-16 rounded-md"
+                />
+                <div>
+                  <h6 class="font-medium">Ihsan Fauzi Sadri, SH</h6>
+                  <p class="text-default-500">Director Executive</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our team Section end -->
+
+    <section
+      class="bg-gradient-to-r from-default-100/70 to-default-100/50 relative py-16 lg:py-32"
+      id="application"
+    >
+      <div class="absolute top-0 inset-x-0 hidden sm:block">
+        <img
+          src="assets/images/shapes/white-wave.svg"
+          alt="white-wave-svg"
+          class="w-full -scale-x-100"
+        />
+      </div>
+
+      <div class="container">
+        <div
+          class="grid lg:grid-cols-2 grid-cols-1 gap-14 items-center"
+          data-aos="fade-up"
+        >
+          <div class="order-2 lg:order-1">
+            <h1 class="text-3xl/tight font-medium mb-5">
+              Join IDEAL Indonesia Today!
+            </h1>
+            <p class="text-default-500">
+              Stay ahead. Seize opportunities. Grow with a community that
+              believes in innovation, leadership, and collaboration. IDEAL
+              Indonesia is calling young visionaries like you to make an impact
+              and lead the change.
+            </p>
+            <div>
+              <a href="application.html">
+                <button
+                  class="flex items-center gap-2 bg-primary text-white rounded-lg text-sm font-semibold flex-none shadow-lg shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 px-8 py-3 mt-8"
+                >
+                  Join Now<i class="i-fa6-solid-arrow-right"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div class="order-1 lg:order-2">
+            <img
+              src="assets/images/hero/photo1.jpg"
+              alt="marketing4"
+              class="shadow"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- faq Section start -->
+    <section class="py-16 sm:py-24">
+      <div class="container" data-aos="fade-up" data-aos-duration="2000">
+        <div class="text-center">
+          <h1 class="text-3xl/tight font-medium mt-3 mb-4">
+            Frequently Asked Questions
+          </h1>
+          <p class="text-default-500">
+            Here are some of the basic types of questions
+          </p>
+        </div>
+
+        <div class="hs-accordion-group mt-14 lg:w-3/4 lg:mx-auto 2xl:w-2/3">
+          <!-- 1 -->
+          <div class="hs-accordion active border border-default-300 rounded-lg">
+            <button
+              class="hs-accordion-toggle p-5 inline-flex items-center justify-between w-full font-semibold text-left transition"
+            >
+              What is IDEAL Indonesia?
+              <span
+                class="i-fa6-solid-angle-down text-xl block transition-all hs-accordion-active:rotate-180"
+              ></span>
+            </button>
+            <div
+              class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+            >
+              <p class="text-default-700 dark:text-default-300 pt-3 p-5">
+                IDEAL Indonesia was born out of the concerns and care of a group
+                of young people who saw the challenges in youth development,
+                especially in education and leadership. These concerns
+                eventually sparked a big idea — to create a platform that
+                supports the creativity, potential, and drive for change among
+                Indonesia’s younger generation.
+              </p>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="hs-accordion border border-default-300 rounded-lg mt-4">
+            <button
+              class="hs-accordion-toggle p-5 inline-flex items-center justify-between w-full font-semibold text-left transition"
+            >
+              When was IDEAL Indonesia founded?
+              <span
+                class="material-symbols-rounded text-xl block transition-all hs-accordion-active:rotate-180"
+              >
+                <i class="i-fa6-solid-angle-down"></i>
+              </span>
+            </button>
+            <div
+              class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+            >
+              <p class="text-default-700 dark:text-default-300 pt-3 p-5">
+                IDEAL Indonesia was officially established on August 17, 2023.
+                It’s a non-governmental organization under the Ruang Karya
+                Pemuda Nusantara Foundation. The date was chosen intentionally
+                to reflect the spirit of independence and a strong commitment to
+                helping young people overcome barriers in accessing education
+                and building value-based, integrity-driven leadership.
+              </p>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="hs-accordion border border-default-300 rounded-lg mt-4">
+            <button
+              class="hs-accordion-toggle p-5 inline-flex items-center justify-between w-full font-semibold text-left transition"
+            >
+              Why is it called IDEAL Indonesia?
+              <span
+                class="material-symbols-rounded text-xl block transition-all hs-accordion-active:rotate-180"
+              >
+                <i class="i-fa6-solid-angle-down"></i>
+              </span>
+            </button>
+            <div
+              class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+            >
+              <p class="text-default-700 dark:text-default-300 pt-3 p-5">
+                The name “IDEAL” represents a vision of shaping young
+                individuals to be progressive thinkers, solution-oriented doers,
+                and collaborative changemakers. IDEAL Indonesia aims to be both
+                a creative space and a catalyst for youth-led social movements.
+                Through its various development programs focused on
+                collaboration and community service, IDEAL is committed to
+                creating equal opportunities for all Indonesian youth —
+                empowering them to access education and become responsible,
+                inclusive, and impactful future leaders. IDEAL Indonesia
+                believes that the dream of a golden generation by 2045 can only
+                be achieved if today’s youth are genuinely prepared, given room
+                to grow, and actively involved in creating change.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-14">
+          <p
+            class="inline-flex flex-wrap gap-1 bg-default-100 text-sm rounded-lg py-2 px-5"
+          >
+            Still have unanswered questions?<a
+              href="contact.html"
+              class="hover:text-primary transition-all"
+            >
+              Contact Us</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- faq Section end -->
+
+    <!-- footer Section start -->
+    <footer class="bg-default-100">
+      <div class="container">
+        <div class="grid xl:grid-cols-5 gap-6 py-12">
+          <div class="xl:col-span-2">
+            <a href="index.html">
+              <img src="assets/images/logo-dark.png" class="h-8" />
+            </a>
+            <p class="text-default-500/80 mt-5 lg:w-4/5">
+              Indonesian Development Education and Leadership
+            </p>
+          </div>
+          <div class="xl:col-span-3 col-span-4">
+            <div
+              class="flex flex-col sm:flex-row gap-6 flex-wrap justify-between"
+            ></div>
+          </div>
+        </div>
+        <div class="border-t py-6">
+          <div class="grid sm:grid-cols-2 text-center sm:text-start gap-6">
+            <div>
+              <p class="text-default-500/80 text-sm">
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                © All rights reserved.
+              </p>
+            </div>
+            <div class="flex justify-center sm:justify-end gap-7">
+              <span>
+                <a href="https://instagram.com/ideal.ind">
+                  <i
+                    class="i-tabler-brand-instagram size-5 hover:text-primary transition-all"
+                  ></i>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer Section end -->
+
+    <!-- Back To Top Start -->
+    <button
+      data-toggle="back-to-top"
+      class="fixed text-sm rounded-full z-10 bottom-5 end-5 h-9 w-9 text-center bg-primary/20 text-primary flex justify-center items-center"
+    >
+      <i class="i-fa6-solid-arrow-up text-base"></i>
+    </button>
+    <!-- Back To Top End -->
+
+    <!-- Preline Js -->
+    <script src="assets/libs/preline/index.js"></script>
+
+    <!-- Swiper Plugin Js -->
+    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Animation on Scroll Plugin Js -->
+    <script src="assets/libs/aos/aos.js"></script>
+
+    <!-- Theme Js -->
+    <script src="assets/js/theme.min.js"></script>
+  </body>
+</html>
